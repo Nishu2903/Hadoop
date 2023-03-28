@@ -1,19 +1,28 @@
 from mrjob.job import MRJob
 from mrjob.step import MRStep
 
-class RatingsBreakdown(MRJob):
+class BusyTerminal(MRJob):
+
+    def mapper(self, _, line):
+        fields = line.strip().split(',')
+        terminal = fields[1]
+        passenger_count = int(fields[3])
+        yield terminal, passenger_count
+
+    def reducer(self, terminal, counts):
+        total_count = sum(counts)
+        yield terminal, total_count
+
+    def reducer_light(self, terminal, counts):
+        light_counts = filter(lambda x: x < 50, counts)
+        light_count = sum(1 for _ in light_counts)
+        yield terminal, light_count
+
     def steps(self):
         return [
-            MRStep(mapper=self.mapper_get_ratings,
-                   reducer=self.reducer_count_ratings)
+            MRStep(mapper=self.mapper, reducer=self.reducer),
+            MRStep(reducer=self.reducer_light)
         ]
 
-    def mapper_get_ratings(self, _, line):
-        (userID, movieID, rating, timestamp) = line.split('\t')
-        yield rating, 1
-
-    def reducer_count_ratings(self, key, values):
-        yield key, sum(values)
-
 if __name__ == '__main__':
-    RatingsBreakdown.run()
+    BusyTerminal.run()
