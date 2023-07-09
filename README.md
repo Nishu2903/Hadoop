@@ -18,7 +18,9 @@ To run the Air Traffic Analysis using Hadoop project, you need the following:
 
 1. Hardware Requirements:
 
-- Hadoop Cluster: Set up a Hadoop cluster with sufficient resources to handle the data processing requirements. The cluster should have multiple nodes with adequate storage and processing capabilities.
+- Hadoop Cluster: The cluster should have multiple nodes with adequate storage and processing capabilities.
+- Processor: 16 Gb RAM is recommended (8gb is adequate).
+- Memory: 512SSD minimum is recommended.
 
 2. Software Requirements
 
