@@ -37,10 +37,39 @@ Here are the main three points of this methodology used in this project:
 
 
 
-**Analysis through Apache Spark in Google Collab**<br>
-***
+## Analysis through Apache Spark in Google Collab
+
 This element involves using Apache Spark to perform analysis on the air traffic data. The analysis is done through writing and executing Spark jobs, which provide advanced data processing capabilities compared to traditional MapReduce. Google Collab is used as the environment for running Spark jobs, making it easier to work with and analyze big data.
-![image](https://github.com/user-attachments/assets/4a047e47-4d85-48cc-a8c1-71c1bd562d1f)
+
+![image](https://github.com/user-attachments/assets/91bc1652-a1e0-496f-9e8e-cf60f4eefda3)
+<br>
+![image](https://github.com/user-attachments/assets/9b4bf394-beba-45ed-a669-fce584a004b8)
+
+## Running Map Reduce Jobs and Hive Commands:
+This element involves breaking down the air traffic data into smaller chunks and distributing it across a Hadoop cluster. MapReduce jobs and Hive commands are then used to process the data, allowing for efficient analysis of large volumes of data. This feature is a key advantage of Hadoop, making it possible to analyze big data quickly and efficiently.
+
+![image](https://github.com/user-attachments/assets/f4989ed4-d142-4e1c-a5cf-02292a916547)
+
+**MAP REDUCE QUESTION** <br>
+Question1: Which Terminal contains maximum numbers of passengers?<br>
+Answer: In MapReduce Job, we wrote the logic code for obtaining the maximum number of passengers in a file named as “logic.py.3” and then we gave our dataset which in csv type file named as “AirTerminla.csv.2”. Both the files are uploaded in HDFS of Ambari Dashboard.<br>
+Command: python logic.py.3 AirTerminal.csv.2<br>
+Result: Terminal 3 receive maximum no. of passengers<br>
+Output: <br>
+MAP REDUCE JOB
+![image](https://github.com/user-attachments/assets/b4c269a7-36cb-492f-a859-6cdd55312f13)
+<br>CODE
+![image](https://github.com/user-attachments/assets/70143df7-6be1-4201-b0b1-4acc2132bf42)
+<br>APACHE HIVE
+![image](https://github.com/user-attachments/assets/85f2fe2c-b416-43ca-95b6-0485c4d1c5e6)
+<br>MYSQL
+![image](https://github.com/user-attachments/assets/81090e1d-6ba0-4697-9eaa-9251e800cd10)
+
+
+
+
+
+
 
 
 **Installation**<br>
