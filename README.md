@@ -3,17 +3,18 @@
 Air Traffic Analysis using Hadoop is a project that aims to analyze and process large volumes of air traffic data using Hadoop, MapReduce, Sqoop, SQL, and various other Hadoop features. The project focuses on extracting valuable insights from the data to aid in air traffic management and decision-making.
 
 
-## Block Diagram
-<img src="https://github.com/Nishu2903/Smart-Hand-Sanitizer-/assets/117971452/a1c0d9ee-460c-42b5-8872-08ec664203ff" width="500" height="200">
-**Features**<br>
-***
+
 
 **Methodology**<br>
 ***
+
 Here are the main three points of this methodology used in this project:
-●	Data Collection and Preparation: Gathering, cleaning, transforming, and preparing the required data for big data analysis[1].
-●	Analysis and Processing: Developing and testing MapReduce and Apache Spark jobs to process the data at scale, analyze it, and extract insights.
-●	Visualization and Recommendation: Analyzing and visualizing the output data using tools such as Tableau, drawing insights, and making recommendations to address the business problem[7].
+
+1.Data Collection and Preparation: Gathering, cleaning, transforming, and preparing the required data for big data analysis[1].
+
+2.Analysis and Processing: Developing and testing MapReduce and Apache Spark jobs to process the data at scale, analyze it, and extract insights.
+
+3.Visualization and Recommendation: Analyzing and visualizing the output data using tools such as Tableau, drawing insights, and making recommendations to address the business problem[7].
 
 
 **Requirements**<br>
