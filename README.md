@@ -5,20 +5,8 @@ Air Traffic Analysis using Hadoop is a project that aims to analyze and process 
 
 
 
-**Methodology**<br>
-***
-
-Here are the main three points of this methodology used in this project:
-
-1.Data Collection and Preparation: Gathering, cleaning, transforming, and preparing the required data for big data analysis[1].
-
-2.Analysis and Processing: Developing and testing MapReduce and Apache Spark jobs to process the data at scale, analyze it, and extract insights.
-
-3.Visualization and Recommendation: Analyzing and visualizing the output data using tools such as Tableau, drawing insights, and making recommendations to address the business problem[7].
-
-
 **Requirements**<br>
-***
+
 
 To run the Air Traffic Analysis using Hadoop project, you need the following:
 
@@ -34,6 +22,26 @@ To run the Air Traffic Analysis using Hadoop project, you need the following:
 - Sqoop: Install and configure Sqoop to import data from external sources into HDFS. Ensure that Sqoop is compatible with your data sources.
 - Hive or Impala: Install and configure Hive or Impala for SQL-based querying and analysis on the processed data.
 - Data Visualization Tools: Choose and install a suitable data visualization tool, such as Apache Zeppelin or Tableau, to create interactive visualizations and dashboards.
+
+
+**Methodology**<br>
+***
+
+Here are the main three points of this methodology used in this project:
+
+1.Data Collection and Preparation: Gathering, cleaning, transforming, and preparing the required data for big data analysis.
+
+2.Analysis and Processing: Developing and testing MapReduce and Apache Spark jobs to process the data at scale, analyze it, and extract insights.
+
+3.Visualization and Recommendation: Analyzing and visualizing the output data using tools such as Tableau, drawing insights, and making recommendations to address the business problem.
+
+
+
+**Analysis through Apache Spark in Google Collab**<br>
+***
+This element involves using Apache Spark to perform analysis on the air traffic data. The analysis is done through writing and executing Spark jobs, which provide advanced data processing capabilities compared to traditional MapReduce. Google Collab is used as the environment for running Spark jobs, making it easier to work with and analyze big data.
+![image](https://github.com/user-attachments/assets/4a047e47-4d85-48cc-a8c1-71c1bd562d1f)
+
 
 **Installation**<br>
 ***
