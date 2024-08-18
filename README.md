@@ -33,6 +33,7 @@ To run the Air Traffic Analysis using Hadoop project, you need the following:
 - Data Visualization Tools: Choose and install a suitable data visualization tool, such as Apache Zeppelin or Tableau, to create interactive visualizations and dashboards.
 
 <br>
+
 ## Methodology
 
 
@@ -46,6 +47,7 @@ Here are the main three points of this methodology used in this project:
 
 
 <br>
+
 ## Analysis through Apache Spark in Google Collab
 
 This element involves using Apache Spark to perform analysis on the air traffic data. The analysis is done through writing and executing Spark jobs, which provide advanced data processing capabilities compared to traditional MapReduce. Google Collab is used as the environment for running Spark jobs, making it easier to work with and analyze big data.
@@ -66,6 +68,7 @@ Answer: In MapReduce Job, we wrote the logic code for obtaining the maximum numb
 Command: python logic.py.3 AirTerminal.csv.2<br>
 Result: Terminal 3 receive maximum no. of passengers<br>
 Output: <br>
+
 MAP REDUCE JOB
 ![image](https://github.com/user-attachments/assets/b4c269a7-36cb-492f-a859-6cdd55312f13)
 <br>CODE
