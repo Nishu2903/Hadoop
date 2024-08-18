@@ -53,7 +53,9 @@ Here are the main three points of this methodology used in this project:
 This element involves using Apache Spark to perform analysis on the air traffic data. The analysis is done through writing and executing Spark jobs, which provide advanced data processing capabilities compared to traditional MapReduce. Google Collab is used as the environment for running Spark jobs, making it easier to work with and analyze big data.
 
 ![image](https://github.com/user-attachments/assets/91bc1652-a1e0-496f-9e8e-cf60f4eefda3)
+
 <br>
+
 ![image](https://github.com/user-attachments/assets/9b4bf394-beba-45ed-a669-fce584a004b8)
 
 ## Running Map Reduce Jobs and Hive Commands:
@@ -65,17 +67,34 @@ This element involves breaking down the air traffic data into smaller chunks and
 Question1: Which Terminal contains maximum numbers of passengers?<br>
 Answer: In MapReduce Job, we wrote the logic code for obtaining the maximum number of passengers in a file named as “logic.py.3” and then we gave our dataset which in csv type file named as “AirTerminla.csv.2”. Both the files are uploaded in HDFS of Ambari Dashboard.<br>
 <br>
+
 Command: python logic.py.3 AirTerminal.csv.2<br>
 Result: Terminal 3 receive maximum no. of passengers<br>
 Output: <br>
 
+<br>
+
 MAP REDUCE JOB
+<br>
+
 ![image](https://github.com/user-attachments/assets/b4c269a7-36cb-492f-a859-6cdd55312f13)
-<br>CODE
+
+<br>
+
+CODE
+<br>
+
 ![image](https://github.com/user-attachments/assets/70143df7-6be1-4201-b0b1-4acc2132bf42)
-<br>APACHE HIVE
+
+<br>
+APACHE HIVE
+<br>
+
 ![image](https://github.com/user-attachments/assets/85f2fe2c-b416-43ca-95b6-0485c4d1c5e6)
+
 <br>MYSQL
+<br>
+
 ![image](https://github.com/user-attachments/assets/81090e1d-6ba0-4697-9eaa-9251e800cd10)
 
 
@@ -89,10 +108,14 @@ The implementation of a multi-node cluster involves setting up a master node and
 <br>
 1. Launch EC2 instances:
 <br> Master and Slave Instances
+
 ![image](https://github.com/user-attachments/assets/d06d0675-9ef9-411c-9ffa-005c568b4a06)
+
 <br>
 If we take any Instance, say for example: MasterDemo Instance, this instance contains information like instance has an ID of "i-08100e81f696e4773" and is currently running with a state of "Running". Its public and private id is given and the subnet ID is "subnet-05ff247d5cd627ba8"[5]. The platform is "Amazon Linux (Inferred)" and the AMI ID is "ami-0889a44b331db0194". It also contains an AWS key also with keypair.
+
 ![image](https://github.com/user-attachments/assets/13206e6d-4d90-4985-8f3f-485da174cd60)
+
 <br>
 
 ## Install Putty and Configure SSH key:
@@ -129,8 +152,8 @@ Another unique feature of the project is the implementation of a multi-node clus
 
 
 
-**Installation**<br>
-***
+## Installation
+
 
 To set up the Air Traffic Analysis using Hadoop project, follow these steps:
 
@@ -152,8 +175,7 @@ To set up the Air Traffic Analysis using Hadoop project, follow these steps:
 
 9. Perform SQL-Based Analysis: Utilize Hive or Impala to perform SQL-based analysis on the processed data. Write SQL queries to extract insights and explore the data in a relational manner.
 
-**Usage**<br>
-***
+## Usage
 
 1. Ensure that the Hadoop cluster and its related services are up and running.
 
