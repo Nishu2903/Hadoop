@@ -24,8 +24,8 @@ To run the Air Traffic Analysis using Hadoop project, you need the following:
 - Data Visualization Tools: Choose and install a suitable data visualization tool, such as Apache Zeppelin or Tableau, to create interactive visualizations and dashboards.
 
 
-**Methodology**<br>
-***
+## Methodology
+
 
 Here are the main three points of this methodology used in this project:
 
