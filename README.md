@@ -2,14 +2,19 @@
 
 Air Traffic Analysis using Hadoop is a project that aims to analyze and process large volumes of air traffic data using Hadoop, MapReduce, Sqoop, SQL, and various other Hadoop features. The project focuses on extracting valuable insights from the data to aid in air traffic management and decision-making.
 
+
+## Block Diagram
+<img src="https://github.com/Nishu2903/Smart-Hand-Sanitizer-/assets/117971452/a1c0d9ee-460c-42b5-8872-08ec664203ff" width="500" height="200">
 **Features**<br>
 ***
 
-- Data Processing: The project leverages Hadoop and MapReduce to efficiently process and analyze large volumes of air traffic data. It includes various data processing techniques such as filtering, aggregation, and transformation to extract meaningful information from the raw data.
-- Data Ingestion: Sqoop is utilized to import data from external sources, such as databases or data warehouses, into Hadoop Distributed File System (HDFS). This allows for seamless integration of different data sources into the analysis pipeline.
-- Scalability: Hadoop's distributed computing framework enables the project to handle large-scale data processing tasks in a scalable manner. It utilizes the parallel processing capabilities of MapReduce to perform computations on multiple nodes simultaneously, thereby reducing processing time.
-- SQL Integration: The project incorporates SQL-based querying and analysis by leveraging Hadoop's ecosystem tools such as Hive or Impala. This enables users to write SQL queries to interact with the data stored in Hadoop, making data exploration and analysis more convenient.
-- Data Visualization: The project includes data visualization techniques to present the analysis results in a visually appealing and understandable manner. Various visualization tools can be used, such as Apache Zeppelin or Tableau, to create interactive dashboards and charts.
+**Methodology**<br>
+***
+Here are the main three points of this methodology used in this project:
+●	Data Collection and Preparation: Gathering, cleaning, transforming, and preparing the required data for big data analysis[1].
+●	Analysis and Processing: Developing and testing MapReduce and Apache Spark jobs to process the data at scale, analyze it, and extract insights.
+●	Visualization and Recommendation: Analyzing and visualizing the output data using tools such as Tableau, drawing insights, and making recommendations to address the business problem[7].
+
 
 **Requirements**<br>
 ***
