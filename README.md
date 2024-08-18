@@ -6,7 +6,6 @@ Air Traffic Analysis using Hadoop is a project that aims to analyze and process 
 ![image](https://github.com/user-attachments/assets/f259246b-5604-4bd0-a160-995113190815)
 <br>
 <br>
-
 <br>
 ![image](https://github.com/user-attachments/assets/115764b5-1731-4595-9e54-2a0587f85b10)
 <br>
